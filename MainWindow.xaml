@@ -1,0 +1,25 @@
+﻿<Window x:Class="Financeiro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Financeiro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Logue-se" HorizontalAlignment="Center" Margin="0,96,0,0" FontSize="40" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" x:Name="txtUsuario" Tag="Digite o seu usuario"  TextWrapping="Wrap" VerticalAlignment="Center" Width="256" Height="29"/>
+        <PasswordBox HorizontalAlignment="Center" x:Name="psbSenha" Tag="Digite a sua senha" Margin="0,253,0,0" VerticalAlignment="Top" Width="255" Height="29"/>
+        <Button Content="Cadastre-se" x:Name="btnCadastrar" HorizontalAlignment="Left"  Margin="272,320,0,0" VerticalAlignment="Top" Width="114" Height="42" Click="btnCadastrar_Click" FontFamily="Arial" Background="#FF1A1ABB">
+            <Button.Foreground>
+                <SolidColorBrush Color="#FFFFFEFE" Opacity="0.975"/>
+            </Button.Foreground>
+        </Button>
+        <Button Content="Entrar" x:Name="btnEntrar" HorizontalAlignment="Left"  Margin="415,320,0,0" VerticalAlignment="Top" Width="113" Height="42" FontFamily="Arial" Background="#FFFFC502" Click="btnEntrar_Click">
+            <Button.Foreground>
+                <SolidColorBrush Color="#FFFFFEFE" Opacity="0.975"/>
+            </Button.Foreground>
+        </Button>
+
+    </Grid>
+</Window>

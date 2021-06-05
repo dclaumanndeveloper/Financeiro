@@ -1,0 +1,19 @@
+﻿<Window x:Class="Financeiro.CadastroLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Financeiro"
+        mc:Ignorable="d"
+        Title="CadastroLogin" Height="450" Width="800">
+    <Grid>
+        <Label Content="Usuário:" HorizontalAlignment="Left" Margin="245,128,0,0" FontSize="20" VerticalAlignment="Top" Width="98"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtUsuarioCadastro" Margin="348,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="26"/>
+        <Label Content="Senha:" HorizontalAlignment="Left" Margin="245,180,0,0" FontSize="20" VerticalAlignment="Top" Width="98" RenderTransformOrigin="0.493,1.262"/>
+        <PasswordBox HorizontalAlignment="Left" x:Name="psbSenhaCadastro" Margin="348,185,0,0" VerticalAlignment="Top" Width="137" Height="27"/>
+        <Button Content="Voltar" x:Name="btnVoltar" HorizontalAlignment="Left" Margin="320,235,0,0" VerticalAlignment="Top" Width="96" Height="32"/>
+        <Button Content="Gravar" x:Name="btnGravarLogin" HorizontalAlignment="Left" Margin="421,235,0,0" VerticalAlignment="Top" Width="96" Height="32" Click="btnGravarLogin_Click"/>
+       
+
+    </Grid>
+</Window>
